@@ -24,6 +24,12 @@ public class simpleCalculator {
     }
 
     public static double Division(double a, double b){
+
+        // Não é permitido divisão por zero
+        if (b == 0) {
+            return Double.NaN;
+        }
+
         return a/b;
     }
 
