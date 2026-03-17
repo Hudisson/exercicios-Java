@@ -73,6 +73,8 @@ public class EvenOddValidator {
         System.out.println("Quociente..(Q): "+ Quociente(numero));
         System.out.println("Resto......(R): "+ Resto(numero));
         System.out.println("D = d * Q + R => "+numero+" = "+divisor+" * "+Quociente(numero)+" + "+ Resto(numero));
+
+        scan.close();
     }
 
 }

@@ -77,5 +77,7 @@ public class simpleCalculator {
 
         System.out.println("=============================================================");
 
+        scan.close();
+
     }
 }
